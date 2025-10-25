@@ -25,11 +25,4 @@ This was originally developed as a college **Introduction to Programming** group
 
 ---
 
-## ⚙️ Setup
-
-```bash
-git clone https://github.com/YOURUSERNAME/stock-market-tool.git
-cd stock-market-tool
-pip install -r requirements.txt
-python src/StockMarketTool_V1.py
 
