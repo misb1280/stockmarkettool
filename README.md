@@ -2,7 +2,7 @@
 
 A Python console application that retrieves, analyzes, and visualizes stock market data using the [Alpha Vantage API](https://www.alphavantage.co/documentation/).  
 
-This was originally developed as a college **Intro to Programming** group project — I led most of the development and implemented the core logic, API integration, and visualization features.
+This was originally developed as a college **Introduction to Programming** group project — I led most of the development and implemented the core logic, API integration, and visualization features.
 
 ---
 
@@ -10,7 +10,7 @@ This was originally developed as a college **Intro to Programming** group projec
 
 - Fetch **daily** and **monthly** time series data for any stock symbol  
 - Generate **matplotlib** line charts for visual analysis  
-- Export stock data to **CSV** for Excel use  
+- Export **daily** and **monthly** stock data to **CSV** for Excel use  
 - Retrieve **company overview** info and analyst ratings  
 - Provide **simple investment advice** based on market trends  
 
@@ -18,7 +18,7 @@ This was originally developed as a college **Intro to Programming** group projec
 
 ## 🧰 Technologies Used
 
-- Python 3.x  
+- Python 3.12
 - Requests (API calls)  
 - Matplotlib (visualization)  
 - CSV module (data export)
