@@ -24,5 +24,7 @@ This was originally developed as a college **Introduction to Programming** group
 - CSV module (data export)
 
 ---
+## 📄 Documentation
+- [Presentation Slides](docs/StockMarketTool_Presentation.pdf)
 
 
