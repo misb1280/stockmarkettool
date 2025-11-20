@@ -11,8 +11,8 @@ This was originally developed as a college **Introduction to Programming** group
 - Fetch **daily** and **monthly** time series data for any stock symbol  
 - Generate **matplotlib** line charts for visual analysis  
 - Export **daily** and **monthly** stock data to **CSV** for Excel use  
-- Retrieve **company overview** info and analyst ratings  
-- Provide **simple investment advice** based on market trends  
+- Retrieve **company overview** information 
+- Provide **simple investment advice** based on market trends and professional analyst's ratings
 
 ---
 
