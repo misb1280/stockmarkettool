@@ -2,7 +2,7 @@
 
 A Python console application that retrieves, analyzes, and visualizes stock market data using the [Alpha Vantage API](https://www.alphavantage.co/documentation/).  
 
-This was originally developed as a college **Introduction to Programming** group project. I was the project lead and implemented the core logic, API integration, and visualization features.
+I was the project lead, I came up with the design of the application and implemented the core logic, API integration, and visualization features.
 
 ---
 
