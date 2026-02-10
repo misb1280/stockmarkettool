@@ -2,11 +2,12 @@
 <img src="https://github.com/misb1280/stockmarkettool/blob/main/docs/SMAI_Logo.png" />
 </p>
 
+## SMAI 
+
 A Python console application that retrieves, analyzes, and visualizes stock market data using the [Alpha Vantage API](https://www.alphavantage.co/documentation/).  
 
 I was the project lead, I came up with the design of the application and implemented the core logic, API integration, and visualization features.
 
----
 
 ## 🚀 Features
 
