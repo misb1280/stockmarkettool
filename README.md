@@ -9,7 +9,7 @@ SMAI is a Python console application that retrieves, analyzes, and visualizes st
 <table align="center">
     <tr>
         <td>
-            <img src="./docs/grc_eg.png" height="200px" />
+            <img src="./docs/DailyData.png" height="200px" />
         </td>
         <td>
             <img src="./docs/OverviewData.png" height="200px" />
