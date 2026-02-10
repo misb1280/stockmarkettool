@@ -8,6 +8,9 @@ I was the project lead, I came up with the design of the application and impleme
 
 ## 🚀 Features
 
+Get a master list of stock symbols 
+
+
 - Fetch **daily** and **monthly** time series data for any stock symbol  
 - Generate **matplotlib** line charts for visual analysis  
 - Export **daily** and **monthly** stock data to **CSV** for Excel use  
