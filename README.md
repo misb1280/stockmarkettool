@@ -1,5 +1,5 @@
 <p align="center">
-<img src="https://github.com/misb1280/stockmarkettool/blob/main/docs/SMAI_Logo.png" width="75%" />
+<img src="https://github.com/misb1280/stockmarkettool/blob/main/docs/SMAI_Logo.png" />
 </p>
 
 A Python console application that retrieves, analyzes, and visualizes stock market data using the [Alpha Vantage API](https://www.alphavantage.co/documentation/).  
