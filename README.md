@@ -1,4 +1,4 @@
-# 📈 Stock Market Analysis And Investing Tool (V1)
+# docs/SMAI_Logo.png
 
 A Python console application that retrieves, analyzes, and visualizes stock market data using the [Alpha Vantage API](https://www.alphavantage.co/documentation/).  
 
