@@ -29,6 +29,10 @@ SMAI is a Python console application that retrieves, analyzes, and visualizes st
 
 I was the project lead, I came up with the design of the application and implemented the core logic, API integration, and visualization features.
 
+# Video Demonstrations
+<p align="center">
+<mp4 src="https://github.com/misb1280/stockmarkettool/blob/main/docs/StockSelect.mp4" />
+</p>
 
 ## Helpful Links
 * [AlphaVantage API documentation](https://www.alphavantage.co/documentation/)
