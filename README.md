@@ -31,17 +31,24 @@ I was the project lead, I came up with the design of the application and impleme
 
 # Video Demonstrations
 
+## Stock Selection
 https://github.com/user-attachments/assets/eab605fb-0d4c-4aa0-ad8b-5b1da0c6ac1f
 
+## Daily Stock OHLC Values + Line Chart
+https://github.com/user-attachments/assets/9422349f-6af0-4859-b2a0-685b5dad5872
+
+## Stock Overview
+https://github.com/user-attachments/assets/80dfdc8f-1875-4e2d-81e0-9afb2c00e246
+
+## Investment Advice
 https://github.com/user-attachments/assets/2637cf5f-7046-40a7-93fb-64bc41ae2334
 
 
-
-## Helpful Links
+# Helpful Links
 * [AlphaVantage API documentation](https://www.alphavantage.co/documentation/)
 * [AlphaVantage API key](https://www.alphavantage.co/support/#api-key)
 
-## Project Features
+# Project Features
 
 * Get a master list of stock symbols.
 * Fetch **daily** and **monthly** time series data for any stock symbol.  
@@ -52,7 +59,7 @@ https://github.com/user-attachments/assets/2637cf5f-7046-40a7-93fb-64bc41ae2334
 
 ---
 
-## Technologies / Modules Used
+# Technologies / Modules Used
 
 * Python 3.12
 * Requests (API calls)  
@@ -60,7 +67,7 @@ https://github.com/user-attachments/assets/2637cf5f-7046-40a7-93fb-64bc41ae2334
 * CSV (data export)
 
 ---
-## Project Documentation
+# Project Documentation
 * [Presentation Slides](docs/StockMarketTool_Presentation.pdf)
 
 
