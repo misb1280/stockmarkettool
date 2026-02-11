@@ -319,7 +319,7 @@ todaydate = importeddate.today()
 
 # Prints the welcome message
 print("\n=======================================================================")
-print("\n📈 Welcome to the Stock Market Tool!")
+print("\n📈 Welcome to SMAI (Stock Market Analysis & Investing Tool)")
 print("\n=======================================================================")
 print("\nThis program lets you:\n")
 print(" • Look up information about the monthly history of the stock price.")
