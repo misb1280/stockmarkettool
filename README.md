@@ -36,27 +36,25 @@ I was the project lead, I came up with the design of the application and impleme
 
 ## Project Features
 
-Get a master list of stock symbols 
-
-- Get a master list of stock symbols.
-- Fetch **daily** and **monthly** time series data for any stock symbol.  
-- Generate **matplotlib** line charts for visual analysis.
-- Export **daily** and **monthly** stock data to **CSV** for Excel use.  
-- Retrieve **company overview** information. 
-- Provide **simple investment advice** based on market trends and professional analyst's ratings.
+* Get a master list of stock symbols.
+* Fetch **daily** and **monthly** time series data for any stock symbol.  
+* Generate **matplotlib** line charts for visual analysis.
+* Export **daily** and **monthly** stock data to **CSV** for Excel use.  
+* Retrieve **company overview** information. 
+* Provide **simple investment advice** based on market trends and professional analyst's ratings.
 
 ---
 
 ## Technologies / Modules Used
 
-- Python 3.12
-- Requests (API calls)  
-- Matplotlib (visualization)  
-- CSV (data export)
+* Python 3.12
+* Requests (API calls)  
+* Matplotlib (visualization)  
+* CSV (data export)
 
 ---
 ## Project Documentation
-- [Presentation Slides](docs/StockMarketTool_Presentation.pdf)
+* [Presentation Slides](docs/StockMarketTool_Presentation.pdf)
 
 
 
