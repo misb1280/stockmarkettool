@@ -70,6 +70,10 @@ pip install -r requirements.txt
 
 Click the Alpha Vantage badge at the top of this page or visit the [API Key Page](https://www.alphavantage.co/support/#api-key) to claim your free key.
 
+> ⚠️ **API Call Limit:** The free Alpha Vantage API tier allows **25 requests per day**. 
+> Each time you fetch stock data counts as one call, so be mindful of how many 
+> lookups you perform in a single session.
+
 **4. Add your API key to the source file**
 
 Open `src/StockMarketTool_V1.py` and paste your key here:
