@@ -79,16 +79,19 @@ Click the Alpha Vantage badge at the top of this page or visit the [API Key Page
 >
 > A full session viewing everything on a single stock costs a maximum of **3 calls**.
 
-**4. Add your API key to the source file**
-
-Open `src/SMAI_V1.0.0.py` and paste your key here:
-```python
-apikey = "YOUR_API_KEY_HERE"
+**4. Run the program and enter your API key**
+```bash
+python src/SMAI_V1.1.0.py
 ```
+On first launch you will be prompted to enter your Alpha Vantage API key. 
+It will be saved automatically to `config.txt` for all future sessions.
+
+> ⚠️ **Note:** Never share or commit your `config.txt` file as it contains 
+> your personal API key.
 
 **5. Run the program**
 ```bash
-python src/SMAI_V1.0.0.py
+python src/SMAI_V1.1.0.py
 ```
 
 ---
@@ -97,7 +100,7 @@ python src/SMAI_V1.0.0.py
 
 1. Click the green **Code** button at the top of this page
 2. Select **Download ZIP** and extract it
-3. Open `src/SMAI_V1.0.0.py` in your IDE of choice
+3. Open `src/SMAI_V1.1.0.py` in your IDE of choice
 4. Follow steps 3–5 from Option 1 above
 
 ### Requirements
