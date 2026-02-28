@@ -81,14 +81,14 @@ Click the Alpha Vantage badge at the top of this page or visit the [API Key Page
 
 **4. Add your API key to the source file**
 
-Open `src/StockMarketTool_V1.py` and paste your key here:
+Open `src/SMAI_V1.0.0.py` and paste your key here:
 ```python
 apikey = "YOUR_API_KEY_HERE"
 ```
 
 **5. Run the program**
 ```bash
-python src/StockMarketTool_V1.py
+python src/SMAI_V1.0.0.py
 ```
 
 ---
@@ -97,7 +97,7 @@ python src/StockMarketTool_V1.py
 
 1. Click the green **Code** button at the top of this page
 2. Select **Download ZIP** and extract it
-3. Open `src/StockMarketTool_V1.py` in your IDE of choice
+3. Open `src/SMAI_V1.0.0.py` in your IDE of choice
 4. Follow steps 3–5 from Option 1 above
 
 ### Requirements
