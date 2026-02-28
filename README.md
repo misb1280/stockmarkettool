@@ -62,6 +62,50 @@ https://github.com/user-attachments/assets/2637cf5f-7046-40a7-93fb-64bc41ae2334
 * Provide **simple investment advice** based on market trends and professional analyst's ratings.
 
 ---
+## ⚙️ Setup & Installation
+
+### Option 1 — Clone with Git (Recommended)
+
+**1. Clone the repository**
+```bash
+git clone https://github.com/misb1280/stockmarkettool.git
+cd stockmarkettool
+```
+
+**2. Install the required dependencies**
+```bash
+pip install -r requirements.txt
+```
+
+**3. Get your free Alpha Vantage API key**
+
+Click the Alpha Vantage badge at the top of this page or visit the [API Key Page](https://www.alphavantage.co/support/#api-key) to claim your free key.
+
+**4. Add your API key to the source file**
+
+Open `src/StockMarketTool_V1.py` and paste your key here:
+```python
+apikey = "YOUR_API_KEY_HERE"
+```
+
+**5. Run the program**
+```bash
+python src/StockMarketTool_V1.py
+```
+
+---
+
+### Option 2 — Manual Download
+
+1. Click the green **Code** button at the top of this page
+2. Select **Download ZIP** and extract it
+3. Open `src/StockMarketTool_V1.py` in your IDE of choice
+4. Follow steps 3–5 from Option 1 above
+
+### Requirements
+- Python 3.12+
+- A free [Alpha Vantage API key](https://www.alphavantage.co/support/#api-key)
+
 
 # Technologies / Modules Used
 
