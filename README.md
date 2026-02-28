@@ -48,6 +48,7 @@ SMAI is a Python console application that retrieves, analyzes, and visualizes st
 * Requests (API calls)
 * Matplotlib (visualization)
 * CSV (data export)
+* OS (config.txt API key management)
 
 ---
 
