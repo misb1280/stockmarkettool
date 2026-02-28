@@ -89,11 +89,6 @@ It will be saved automatically to `config.txt` for all future sessions.
 > ⚠️ **Note:** Never share or commit your `config.txt` file as it contains 
 > your personal API key.
 
-**5. Run the program**
-```bash
-python src/SMAI_V1.1.0.py
-```
-
 ---
 
 ### Option 2 — Manual Download
@@ -101,7 +96,7 @@ python src/SMAI_V1.1.0.py
 1. Click the green **Code** button at the top of this page
 2. Select **Download ZIP** and extract it
 3. Open `src/SMAI_V1.1.0.py` in your IDE of choice
-4. Follow steps 3–5 from Option 1 above
+4. Follow steps 3–4 from Option 1 above
 
 ### Requirements
 - Python 3.12+
