@@ -41,9 +41,6 @@ SMAI is a Python console application that retrieves, analyzes, and visualizes st
     </tr>
 </table>
 
-> 📁 See the [examples](examples/) folder for sample outputs including 
-> CSV exports and line charts generated using NVIDIA (NVDA) stock data.
-
 ---
 
 # Technologies / Modules Used
@@ -122,6 +119,13 @@ https://github.com/user-attachments/assets/80dfdc8f-1875-4e2d-81e0-9afb2c00e246
 
 ## Investment Advice
 https://github.com/user-attachments/assets/2637cf5f-7046-40a7-93fb-64bc41ae2334
+
+---
+
+# 🔮 Future Features
+* Generative AI integration for deeper stock analysis and insights
+* Improved investment recommendation system
+* Additional data visualizations
 
 ---
 
