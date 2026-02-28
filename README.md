@@ -6,9 +6,20 @@
 <img src="https://github.com/misb1280/stockmarkettool/blob/main/docs/SMAI_Logo.png" />
 </p>
 
-# SMAI 
+# SMAI
+SMAI is a Python console application that retrieves, analyzes, and visualizes stock market data using the [Alpha Vantage API](https://www.alphavantage.co/documentation/).
 
-SMAI is a Python console application that retrieves, analyzes, and visualizes stock market data using the [Alpha Vantage API](https://www.alphavantage.co/documentation/).  
+---
+
+# Project Features
+* Get a master list of stock symbols.
+* Fetch **daily** and **monthly** time series data for any stock symbol.
+* Generate **matplotlib** line charts for visual analysis.
+* Export **daily** and **monthly** stock data to **CSV** for Excel use.
+* Retrieve **company overview** information.
+* Provide **simple investment advice** based on market trends and professional analyst's ratings.
+
+---
 
 <table align="center">
     <tr>
@@ -22,46 +33,24 @@ SMAI is a Python console application that retrieves, analyzes, and visualizes st
             <img src="./docs/DailyLineChart.png" height="200px" />
         </td>
         <td>
-            <img src="./docs/OverviewData.png" height="200px" />   
+            <img src="./docs/OverviewData.png" height="200px" />
         </td>
         <td>
-            <img src="./docs/InvestmentAdvice.png" height="200px" />  
+            <img src="./docs/InvestmentAdvice.png" height="200px" />
         </td>
     </tr>
 </table>
 
+---
 
-I was the project lead, I came up with the design of the application and implemented the core logic, API integration, and visualization features.
-
-# Video Demonstrations
-
-## Stock Selection
-https://github.com/user-attachments/assets/eab605fb-0d4c-4aa0-ad8b-5b1da0c6ac1f
-
-## Daily Stock OHLC Values + Line Chart
-https://github.com/user-attachments/assets/9422349f-6af0-4859-b2a0-685b5dad5872
-
-## Stock Overview
-https://github.com/user-attachments/assets/80dfdc8f-1875-4e2d-81e0-9afb2c00e246
-
-## Investment Advice
-https://github.com/user-attachments/assets/2637cf5f-7046-40a7-93fb-64bc41ae2334
-
-
-# Helpful Links
-* [AlphaVantage API documentation](https://www.alphavantage.co/documentation/)
-* [AlphaVantage API key](https://www.alphavantage.co/support/#api-key)
-
-# Project Features
-
-* Get a master list of stock symbols.
-* Fetch **daily** and **monthly** time series data for any stock symbol.  
-* Generate **matplotlib** line charts for visual analysis.
-* Export **daily** and **monthly** stock data to **CSV** for Excel use.  
-* Retrieve **company overview** information. 
-* Provide **simple investment advice** based on market trends and professional analyst's ratings.
+# Technologies / Modules Used
+* Python 3.12
+* Requests (API calls)
+* Matplotlib (visualization)
+* CSV (data export)
 
 ---
+
 ## ⚙️ Setup & Installation
 
 ### Option 1 — Clone with Git (Recommended)
@@ -106,17 +95,34 @@ python src/StockMarketTool_V1.py
 - Python 3.12+
 - A free [Alpha Vantage API key](https://www.alphavantage.co/support/#api-key)
 
+---
 
-# Technologies / Modules Used
+# Video Demonstrations
 
-* Python 3.12
-* Requests (API calls)  
-* Matplotlib (visualization)  
-* CSV (data export)
+## Stock Selection
+https://github.com/user-attachments/assets/eab605fb-0d4c-4aa0-ad8b-5b1da0c6ac1f
+
+## Daily Stock OHLC Values + Line Chart
+https://github.com/user-attachments/assets/9422349f-6af0-4859-b2a0-685b5dad5872
+
+## Stock Overview
+https://github.com/user-attachments/assets/80dfdc8f-1875-4e2d-81e0-9afb2c00e246
+
+## Investment Advice
+https://github.com/user-attachments/assets/2637cf5f-7046-40a7-93fb-64bc41ae2334
 
 ---
+
 # Project Documentation
 * [Presentation Slides](docs/StockMarketTool_Presentation.pdf)
 
+---
 
+# Helpful Links
+* [AlphaVantage API documentation](https://www.alphavantage.co/documentation/)
+* [AlphaVantage API key](https://www.alphavantage.co/support/#api-key)
 
+---
+
+# About
+Michael Spano was the project lead, responsible for the design of the application and implementation of the core logic, API integration, and visualization features.
