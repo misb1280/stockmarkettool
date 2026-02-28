@@ -1,6 +1,6 @@
 ![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
 ![License](https://img.shields.io/badge/License-MIT-green)
-![API](https://img.shields.io/badge/API-Alpha%20Vantage-orange)
+[![API](https://img.shields.io/badge/API-Alpha%20Vantage-orange)](https://www.alphavantage.co/support/#support)
 
 <p align="center">
 <img src="https://github.com/misb1280/stockmarkettool/blob/main/docs/SMAI_Logo.png" />
