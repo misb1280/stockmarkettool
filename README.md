@@ -78,7 +78,7 @@ Click the Alpha Vantage badge at the top of this page or visit the [API Key Page
 > - Viewing company info: **1 call** 
 > - Getting investment advice: **1 call** 
 >
-> A full session viewing everything on a single stock costs a maximum of **3 calls**.
+> A full session viewing everything on a single stock costs a maximum of **5 calls**.
 
 **4. Run the program and enter your API key**
 ```bash
