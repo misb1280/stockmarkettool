@@ -75,8 +75,8 @@ Click the Alpha Vantage badge at the top of this page or visit the [API Key Page
 > - Entering or changing a stock symbol: **1 call**
 > - Viewing monthly stock data: **1 call**
 > - Viewing daily stock data: **1 call**
-> - Viewing company info: **0 calls** (reuses already fetched data)
-> - Getting investment advice: **0 calls** (reuses already fetched data)
+> - Viewing company info: **1 call** 
+> - Getting investment advice: **1 call** 
 >
 > A full session viewing everything on a single stock costs a maximum of **3 calls**.
 
