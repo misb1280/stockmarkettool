@@ -22,7 +22,7 @@ SMAI is available as both a **Python console application** and a **modern dark t
 * Provide **simple investment advice** based on market trends and professional analyst ratings.
 * Provide **AI powered investment advice** using Groq's LLaMA model with live stock data.
 * Ask **follow up questions** to the AI analyst about any stock.
-* * Modern **dark themed desktop GUI** built with CustomTkinter
+* Modern **dark themed desktop GUI** built with CustomTkinter
 * **Embedded interactive charts** displayed directly in the application
 
 > ⚠️ **Disclaimer:** SMAI is intended for educational and informational purposes only. 
@@ -64,7 +64,6 @@ SMAI is available as both a **Python console application** and a **modern dark t
 * CSV (data export)
 * OS (API key file management)
 * Groq — LLaMA 3.3 70B (AI powered investment advice)
-* 
 
 ---
 
