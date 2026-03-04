@@ -13,7 +13,7 @@ SMAI is available as both a **Python console application** and a **desktop GUI a
 
 ---
 
-# SMAI GUI Demo with NVIDIA Stock
+# SMAI v3.0.0 GUI Demo with NVIDIA Stock
 
 https://github.com/user-attachments/assets/33c96f5a-0809-4832-9578-40bbcdae637b
 
