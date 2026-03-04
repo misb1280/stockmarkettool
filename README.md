@@ -22,6 +22,12 @@ SMAI is a Python console application that retrieves, analyzes, and visualizes st
 * Provide **AI powered investment advice** using Groq's LLaMA model with live stock data.
 * Ask **follow up questions** to the AI analyst about any stock.
 
+> ⚠️ **Disclaimer:** SMAI is intended for educational and informational purposes only. 
+> The investment advice and AI generated analysis provided by this application does not 
+> constitute professional financial advice. Always consult a qualified financial advisor 
+> before making any investment decisions. The creators of SMAI are not responsible for 
+> any financial losses incurred from using this application.
+
 ---
 
 <table align="center">
