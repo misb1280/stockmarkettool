@@ -13,6 +13,12 @@ SMAI is available as both a **Python console application** and a **modern dark t
 
 ---
 
+# SMAI GUI Demo with NVIDIA Stock
+
+https://github.com/user-attachments/assets/33c96f5a-0809-4832-9578-40bbcdae637b
+
+---
+
 # Project Features
 * Get a master list of stock symbols.
 * Fetch **daily** and **monthly** time series data for any stock symbol.
