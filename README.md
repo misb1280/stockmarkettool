@@ -163,7 +163,7 @@ https://github.com/user-attachments/assets/2637cf5f-7046-40a7-93fb-64bc41ae2334
 ---
 
 # Project Documentation
-* [Presentation Slides](docs/StockMarketTool_Presentation.pdf)
+* [Presentation Slides for v1.0.0](docs/StockMarketTool_Presentation.pdf)
 
 ---
 
