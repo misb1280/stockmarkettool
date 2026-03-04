@@ -206,5 +206,6 @@ marimo/_static/
 marimo/_lsp/
 __marimo__/
 
-# Config.txt for API Key
-config.txt
+# Files for API Keys
+AlphaVantageAPIKey.txt
+GroqAPIKey.txt
