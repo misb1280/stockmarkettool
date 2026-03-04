@@ -5,7 +5,7 @@
 [![GUI](https://img.shields.io/badge/GUI-CustomTkinter-blue)](https://github.com/TomSchimansky/CustomTkinter)
 
 <p align="center">
-<img src="https://github.com/misb1280/stockmarkettool/blob/main/docs/SMAI_Logo_Dark.png" />
+<img src="https://github.com/misb1280/stockmarkettool/blob/main/docs/SMAI_V3_Release_Splash.png" />
 </p>
 
 # SMAI
