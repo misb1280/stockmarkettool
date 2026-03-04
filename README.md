@@ -1,13 +1,14 @@
 ![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python)
 ![License](https://img.shields.io/badge/License-MIT-green)
 [![API](https://img.shields.io/badge/API-Alpha%20Vantage-orange)](https://www.alphavantage.co/support/#support)
+[![AI](https://img.shields.io/badge/AI-Groq%20LLaMA-purple)](https://console.groq.com/keys)
 
 <p align="center">
 <img src="https://github.com/misb1280/stockmarkettool/blob/main/docs/SMAI_Logo.png" />
 </p>
 
 # SMAI
-SMAI is a Python console application that retrieves, analyzes, and visualizes stock market data using the [Alpha Vantage API](https://www.alphavantage.co/documentation/).
+SMAI is a Python console application that retrieves, analyzes, and visualizes stock market data using the [Alpha Vantage API](https://www.alphavantage.co/documentation/), now featuring AI powered investment analysis powered by [Groq](https://console.groq.com).
 
 ---
 
@@ -17,7 +18,9 @@ SMAI is a Python console application that retrieves, analyzes, and visualizes st
 * Generate **matplotlib** line charts for visual analysis.
 * Export **daily** and **monthly** stock data to **CSV** for Excel use.
 * Retrieve **company overview** information.
-* Provide **simple investment advice** based on market trends and professional analyst's ratings.
+* Provide **simple investment advice** based on market trends and professional analyst ratings.
+* Provide **AI powered investment advice** using Groq's LLaMA model with live stock data.
+* Ask **follow up questions** to the AI analyst about any stock.
 
 ---
 
@@ -41,6 +44,8 @@ SMAI is a Python console application that retrieves, analyzes, and visualizes st
     </tr>
 </table>
 
+> 📁 See the [examples](examples/) folder for sample outputs including CSV exports and line charts generated using NVIDIA (NVDA) stock data.
+
 ---
 
 # Technologies / Modules Used
@@ -48,7 +53,8 @@ SMAI is a Python console application that retrieves, analyzes, and visualizes st
 * Requests (API calls)
 * Matplotlib (visualization)
 * CSV (data export)
-* OS (config.txt API key management)
+* OS (API key file management)
+* Groq — LLaMA 3.3 70B (AI powered investment advice)
 
 ---
 
@@ -67,9 +73,12 @@ cd stockmarkettool
 pip install -r requirements.txt
 ```
 
-**3. Get your free Alpha Vantage API key**
+**3. Get your free API keys**
 
-Click the Alpha Vantage badge at the top of this page or visit the [API Key Page](https://www.alphavantage.co/support/#api-key) to claim your free key.
+You will need two free API keys to run SMAI:
+
+* **Alpha Vantage** — click the Alpha Vantage badge at the top of this page or visit the [API Key Page](https://www.alphavantage.co/support/#api-key)
+* **Groq** — click the Groq badge at the top of this page or visit the [Groq API Key Page](https://console.groq.com/keys)
 
 > ⚠️ **API Call Limit:** The free Alpha Vantage API tier allows **25 requests per day**. Here is how many calls each action uses per session:
 > - Entering or changing a stock symbol: **1 call**
@@ -77,18 +86,20 @@ Click the Alpha Vantage badge at the top of this page or visit the [API Key Page
 > - Viewing daily stock data: **1 call**
 > - Viewing company info: **1 call** 
 > - Getting investment advice: **1 call** 
+> - Getting AI powered investment advice: **1 call** 
 >
-> A full session viewing everything on a single stock costs a maximum of **5 calls**.
+> A full session viewing everything on a single stock costs a maximum of **6 calls**.
+>
+> Groq API calls are **unlimited** on the free tier for this use case.
 
-**4. Run the program and enter your API key**
+**4. Run the program and enter your API keys**
 ```bash
-python src/SMAI_V1.1.0.py
+python src/SMAI_V2.0.0.py
 ```
-On first launch you will be prompted to enter your Alpha Vantage API key. 
-It will be saved automatically to `config.txt` for all future sessions.
+On first launch you will be prompted to enter your Alpha Vantage and Groq API keys.
+Both will be saved automatically to their respective files for all future sessions.
 
-> ⚠️ **Note:** Never share or commit your `config.txt` file as it contains 
-> your personal API key.
+> ⚠️ **Note:** Never share or commit your `AlphaVantageAPIKey.txt` or `GroqAPIKey.txt` files as they contain your personal API keys.
 
 ---
 
@@ -96,12 +107,13 @@ It will be saved automatically to `config.txt` for all future sessions.
 
 1. Click the green **Code** button at the top of this page
 2. Select **Download ZIP** and extract it
-3. Open `src/SMAI_V1.1.0.py` in your IDE of choice
+3. Open `src/SMAI_V2.0.0.py` in your IDE of choice
 4. Follow steps 3–4 from Option 1 above
 
 ### Requirements
 - Python 3.12+
 - A free [Alpha Vantage API key](https://www.alphavantage.co/support/#api-key)
+- A free [Groq API key](https://console.groq.com/keys)
 
 ---
 
@@ -122,9 +134,9 @@ https://github.com/user-attachments/assets/2637cf5f-7046-40a7-93fb-64bc41ae2334
 ---
 
 # 🔮 Future Features
-* Generative AI integration for deeper stock analysis and insights
-* Improved investment recommendation system
 * Additional data visualizations
+* Improved investment recommendation system and AI implementation
+* GUI version of the application
 
 ---
 
@@ -142,4 +154,4 @@ https://github.com/user-attachments/assets/2637cf5f-7046-40a7-93fb-64bc41ae2334
 ---
 
 # About
-Michael Spano was the project lead, responsible for the design of the application and implementation of the core logic, API integration, and visualization features.
+Michael Spano was the project lead, responsible for the design of the application and implementation of the core logic, API integration, AI integration, and visualization features.
