@@ -136,6 +136,8 @@ https://github.com/user-attachments/assets/2637cf5f-7046-40a7-93fb-64bc41ae2334
 # Helpful Links
 * [AlphaVantage API documentation](https://www.alphavantage.co/documentation/)
 * [AlphaVantage API key](https://www.alphavantage.co/support/#api-key)
+* [GroqCloud API documentation](https://console.groq.com/docs/overview)
+* [GroqCloud API key](https://console.groq.com/keys)
 
 ---
 
