@@ -139,7 +139,7 @@ Both will be saved automatically to their respective files for all future sessio
 
 ---
 
-# Video Demonstrations
+# SMAI v2.0.0 Python Console Video Demonstrations
 
 ## Stock Selection
 https://github.com/user-attachments/assets/eab605fb-0d4c-4aa0-ad8b-5b1da0c6ac1f
