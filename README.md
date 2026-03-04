@@ -9,7 +9,7 @@
 </p>
 
 # SMAI
-SMAI is available as both a **Python console application** and a **modern dark themed desktop GUI application**. It retrieves, analyzes, and visualizes stock market data using the [Alpha Vantage API](https://www.alphavantage.co/documentation/), featuring AI powered investment analysis powered by [Groq](https://console.groq.com).
+SMAI is available as both a **Python console application** and a **desktop GUI application**. It retrieves, analyzes, and visualizes stock market data using the [Alpha Vantage API](https://www.alphavantage.co/documentation/), featuring AI powered investment analysis powered by [Groq](https://console.groq.com).
 
 ---
 
