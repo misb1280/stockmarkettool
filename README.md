@@ -2,13 +2,14 @@
 ![License](https://img.shields.io/badge/License-MIT-green)
 [![API](https://img.shields.io/badge/API-Alpha%20Vantage-orange)](https://www.alphavantage.co/support/#support)
 [![AI](https://img.shields.io/badge/AI-Groq%20LLaMA-purple)](https://console.groq.com/keys)
+[![GUI](https://img.shields.io/badge/GUI-CustomTkinter-blue)](https://github.com/TomSchimansky/CustomTkinter)
 
 <p align="center">
 <img src="https://github.com/misb1280/stockmarkettool/blob/main/docs/SMAI_Logo.png" />
 </p>
 
 # SMAI
-SMAI is a Python console application that retrieves, analyzes, and visualizes stock market data using the [Alpha Vantage API](https://www.alphavantage.co/documentation/), now featuring AI powered investment analysis powered by [Groq](https://console.groq.com).
+SMAI is available as both a **Python console application** and a **modern dark themed desktop GUI application**. It retrieves, analyzes, and visualizes stock market data using the [Alpha Vantage API](https://www.alphavantage.co/documentation/), featuring AI powered investment analysis powered by [Groq](https://console.groq.com).
 
 ---
 
@@ -21,6 +22,8 @@ SMAI is a Python console application that retrieves, analyzes, and visualizes st
 * Provide **simple investment advice** based on market trends and professional analyst ratings.
 * Provide **AI powered investment advice** using Groq's LLaMA model with live stock data.
 * Ask **follow up questions** to the AI analyst about any stock.
+* * Modern **dark themed desktop GUI** built with CustomTkinter
+* **Embedded interactive charts** displayed directly in the application
 
 > ⚠️ **Disclaimer:** SMAI is intended for educational and informational purposes only. 
 > The investment advice and AI generated analysis provided by this application does not 
@@ -61,6 +64,7 @@ SMAI is a Python console application that retrieves, analyzes, and visualizes st
 * CSV (data export)
 * OS (API key file management)
 * Groq — LLaMA 3.3 70B (AI powered investment advice)
+* 
 
 ---
 
@@ -99,8 +103,15 @@ You will need two free API keys to run SMAI:
 > Groq API calls are **unlimited** on the free tier for this use case.
 
 **4. Run the program and enter your API keys**
+
+**Run the GUI version (V3.0.0):**
 ```bash
-python src/SMAI_V2.0.0.py
+python src/SMAI_v3.0.0.py
+```
+
+**Run the console version (V2.0.0):**
+```bash
+python src/SMAI_v2.0.0.py
 ```
 On first launch you will be prompted to enter your Alpha Vantage and Groq API keys.
 Both will be saved automatically to their respective files for all future sessions.
@@ -113,7 +124,7 @@ Both will be saved automatically to their respective files for all future sessio
 
 1. Click the green **Code** button at the top of this page
 2. Select **Download ZIP** and extract it
-3. Open `src/SMAI_V2.0.0.py` in your IDE of choice
+3. Open `src/SMAI_V3.0.0.py` (GUI Version) or `src/SMAI_V2.0.0.py` (Console Version) in your IDE of choice
 4. Follow steps 3–4 from Option 1 above
 
 ### Requirements
@@ -142,7 +153,7 @@ https://github.com/user-attachments/assets/2637cf5f-7046-40a7-93fb-64bc41ae2334
 # 🔮 Future Features
 * Additional data visualizations
 * Improved investment recommendation system and AI implementation
-* GUI version of the application
+* Portfolio tracking feature
 
 ---
 
@@ -160,4 +171,4 @@ https://github.com/user-attachments/assets/2637cf5f-7046-40a7-93fb-64bc41ae2334
 ---
 
 # About
-Michael Spano was the project lead, responsible for the design of the application and implementation of the core logic, API integration, AI integration, and visualization features.
+Michael Spano was the project lead, responsible for the design of the application and implementation of the core logic, API integration, AI integration, GUI development, and visualization features.
